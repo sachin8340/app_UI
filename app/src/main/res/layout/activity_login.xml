@@ -172,17 +172,17 @@
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginEnd="8dp"
-        app:layout_constraintBottom_toBottomOf="@+id/btnfacebook"
-        app:layout_constraintEnd_toStartOf="@+id/btnfacebook"
+        app:layout_constraintBottom_toBottomOf="@+id/btnFacebook"
+        app:layout_constraintEnd_toStartOf="@+id/btnFacebook"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintHorizontal_chainStyle="packed"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/btnfacebook"
+        app:layout_constraintTop_toTopOf="@+id/btnFacebook"
         app:layout_constraintVertical_bias="0.0"
         app:srcCompat="@drawable/google" />
 
     <ImageView
-        android:id="@+id/btnfacebook"
+        android:id="@+id/btnFacebook"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:layout_marginStart="8dp"

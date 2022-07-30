@@ -17,7 +17,7 @@ public class Start extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent iStart = new Intent(Start.this,Login.class);
+                Intent iStart = new Intent(Start.this,FingerPrint.class);
                 startActivity(iStart);
                 finish();
             }
